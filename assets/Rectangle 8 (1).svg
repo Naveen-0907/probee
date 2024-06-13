@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="529" height="785" viewBox="0 0 529 785">
+  <defs>
+    <filter id="Rectangle_8">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15.5" result="blur"/>
+      <feFlood flood-opacity="0.271" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <path id="Rectangle_8-2" data-name="Rectangle 8" d="M250,0h29A250,250,0,0,1,529,250V785a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V250A250,250,0,0,1,250,0Z" fill="#f97600"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_8)">
+      <path id="Rectangle_8-3" data-name="Rectangle 8" d="M250,0h29A250,250,0,0,1,529,250V785a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V250A250,250,0,0,1,250,0Z" fill="#fff"/>
+    </g>
+    <g id="Rectangle_8-4" data-name="Rectangle 8" fill="none" stroke="#fff" stroke-width="11">
+      <path d="M250,0h29A250,250,0,0,1,529,250V785a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V250A250,250,0,0,1,250,0Z" stroke="none"/>
+      <path d="M250,5.5h29A244.5,244.5,0,0,1,523.5,250V774a5.5,5.5,0,0,1-5.5,5.5H11A5.5,5.5,0,0,1,5.5,774V250A244.5,244.5,0,0,1,250,5.5Z" fill="none"/>
+    </g>
+  </g>
+</svg>
